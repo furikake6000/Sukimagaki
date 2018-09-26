@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Konva.js -->
+    <script src="https://cdn.rawgit.com/konvajs/konva/2.4.0/konva.min.js"></script>
+    <meta charset="utf-8">
+    <title>Konva Free Drawing Demo</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #F0F0F0;
+        }
+    </style>
+</head>
+
+<body>
+    Tool:
+    <select id="tool">
+        <option value="brush">Brush</option>
+        <option value="eraser">Eraser</option>
+    </select>
+    <div id="container"></div>
+
+    <script src="src/container.js"></script>
+
+</body>
+
+</html>
